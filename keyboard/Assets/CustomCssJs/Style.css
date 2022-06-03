@@ -1,0 +1,330 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style Keyboard */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_keyboard {
+  width: 800px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5c5c5;
+  border-radius: 10px;
+}
+
+.section_row_one_section_keyboard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.section_button_size_main {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  color: #222;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_size_main:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_delete {
+  width: 110px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_delete:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_row_two_section_keyboard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_button_tab {
+  width: 80px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_tab:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_back_slash {
+  width: 80px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_back_slash:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_row_three_section_keyboard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_button_capslock {
+  width: 110px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_capslock:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_return {
+  width: 100px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_return:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_row_four_section_keyboard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_button_shift {
+  width: 130px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_shift:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_row_five_section_keyboard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.section_button_ctrl {
+  width: 50px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_ctrl:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_alt {
+  width: 50px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_alt:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_command {
+  width: 90px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  font-size: 12px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_command:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_space {
+  width: 340px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_space:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+
+.section_button_fn {
+  width: 50px;
+  height: 50px;
+  background-color: #f3f3f3;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  box-shadow: inset 0px 0px 10px #000;
+  transition: all 0.5s;
+}
+
+.section_button_fn:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 15px #000;
+}
+/************************************************************************/ /* End Style Keyboard */
